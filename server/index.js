@@ -76,7 +76,8 @@ app.use(
     cookie: {
       maxAge: 1000 * 60 * 60 * 24 * 7, // 7 days
       httpOnly: true, // Prevents JavaScript access to cookies
-      sameSite: "lax",
+      sameSite: "none",
+      secure: true, // Set to true if using HTTPS
     },
     store: store,
   })
