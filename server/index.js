@@ -107,7 +107,7 @@ await server.start();
 app.use(
   "/graphql",
   cors({
-    origin: "*",
+    origin: "https://scandiweb-ready.onrender.com",
     credentials: true, // Allow credentials (cookies)
   }),
   bodyParser.json(),
