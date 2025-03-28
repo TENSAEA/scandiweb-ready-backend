@@ -1,0 +1,32 @@
+{
+  "name": "scandiweb",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "apollo-server-express": "^3.13.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.3",
+    "connect-mongodb-session": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "graphql-passport": "^0.6.8",
+    "http": "^0.0.1-security",
+    "mongoose": "^5.13.23",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "vite": "^2.0.0"
+  }
+}
