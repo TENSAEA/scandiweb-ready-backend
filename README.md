@@ -1,6 +1,9 @@
-# Todo App
+# Scandiweb Ready
 
-This is a simple Todo application built using the MERN stack (MongoDB, Express, React, Node.js) and GraphQL. The application allows users to create, read, update, and delete their tasks efficiently.
+![Scandiweb Ready](https://github.com/user-attachments/assets/16598e84-38a0-4143-87d3-8a34ec34a27f)
+
+
+This is a Scandiweb Ready application built using the MERN stack (MongoDB, Express, React, Node.js) and GraphQL. The application allows users to create, read, update, and delete their tasks efficiently.
 
 ## Technologies Used
 
